@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "advantages": "Advantages",
+    "price": "Pricing",
+    "download": "Download"
+  },
+  "hero": {
+    "title": "Fast, secure, one-tap access to a better internet.",
+    "badge": "v1.0 Now Available",
+    "description": "Enterprise-grade encryption, global high-speed servers, and ultimate online freedom—all at the tap of a button."
+  },
+  "download": {
+    "ios": "Download for iOS",
+    "android": "Download for Android",
+    "guarantee": "Risk-free with a 7-day money-back guarantee.",
+    "title": "Ready to speed up your journey?",
+    "description": "Download the app for free. New users get a free trial after sign-up."
+  },
+  "common": {
+    "heroAlt": "ABC - Dedicated IP Server",
+    "whyAlt": "Why Choose ABC"
+  },
+  "features": {
+    "title": "Features",
+    "items": [
+      {
+        "title": "Smart Quick Connect",
+        "description": "Just tap \"Quick Connect\". Our smart algorithm selects the fastest server by distance, load, and latency.",
+        "advantage": "Benefit: No configuration needed, one tap for optimal speed."
+      },
+      {
+        "title": "Bank-Level Encryption",
+        "description": "AES-256 encryption keeps your data safe on any network. Ideal for public Wi-Fi, online banking, and private browsing.",
+        "advantage": "Benefit: Hackers and ISPs cannot see your data."
+      },
+      {
+        "title": "10,000+ Global Servers",
+        "description": "Access 10,000+ servers in 59 countries. More servers mean lower load and more stable connections.",
+        "advantage": "Benefit: Stream, game, and download without buffering."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Advantages",
+    "description": "Why gamers and streamers choose us",
+    "items": [
+      {
+        "label": "Game DDoS Protection",
+        "description": "Protect your games from DDoS attacks for smooth gameplay."
+      },
+      {
+        "label": "Network Kill Switch",
+        "description": "Automatically cut network when VPN disconnects. Zero data leaks."
+      },
+      {
+        "label": "Multi-Device",
+        "description": "One account works on multiple devices at the same time."
+      },
+      {
+        "label": "24/7 Live Support",
+        "description": "Get expert help anytime via chat or email."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "description": "All plans include unlimited access to every feature.",
+    "popular": "Most Popular",
+    "planWeek": "Weekly",
+    "planMonth": "Monthly",
+    "planQuarter": "Quarterly",
+    "planYear": "Yearly",
+    "perWeek": "$4.99 / week"
+  },
+  "footer": {
+    "allRightsReserved": "All rights reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "seo": {
+    "title": "ABC - Your Smooth Smart Network Partner",
+    "ogTitle": "ABC - Dedicated IP, Control Your Network Identity",
+    "description": "ABC is a smooth, smart network partner that quietly filters congestion and lag, removing wait and distraction.",
+    "keywords": "ABC, smart network, dedicated IP, network acceleration, optimization, stable connection"
+  }
+}

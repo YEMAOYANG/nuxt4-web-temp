@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@source "../../../content/**/*";
+
+@theme static {
+  --font-sans: 'Public Sans', sans-serif;
+
+  --color-green-50: #EFFDF5;
+  --color-green-100: #D9FBE8;
+  --color-green-200: #B3F5D1;
+  --color-green-300: #75EDAE;
+  --color-green-400: #00DC82;
+  --color-green-500: #00C16A;
+  --color-green-600: #00A155;
+  --color-green-700: #007F45;
+  --color-green-800: #016538;
+  --color-green-900: #0A5331;
+  --color-green-950: #052E16;
+}
+
+/* 自定义主题色 */
+:root {
+  --ui-primary: #090D16;
+}
+
+.dark {
+  --ui-primary: #090D16;
+  --ui-bg: var(--ui-color-neutral-950);
+  --ui-bg-muted: var(--ui-color-neutral-900);
+  --ui-bg-elevated: var(--ui-color-neutral-900);
+  --ui-bg-accented: var(--ui-color-neutral-800);
+}
+
+/* 平滑滚动 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 渐变按钮样式 - 全局可复用 */
+.btn-gradient {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #7027F5 0%, #53EEE5 100%) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 500;
+  box-shadow: 0 4px 15px rgba(112, 39, 245, 0.3) !important;
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(112, 39, 245, 0.4) !important;
+  background: linear-gradient(135deg, #7027F5 0%, #53EEE5 100%) !important;
+}
+
+.btn-gradient:active {
+  transform: translateY(0);
+}
+
+/* 确保按钮内文字颜色为白色 */
+.btn-gradient * {
+  color: white !important;
+}
+
+/* 下载按钮绿色渐变（覆盖 UButton 默认样式） */
+.btn-download {
+  background: linear-gradient(-90deg, #01ac54 0%, #03de6d 100%) !important;
+  border: none !important;
+  box-shadow: 0 4px 15px rgba(1, 172, 84, 0.35);
+  color: white !important;
+}
+.btn-download:hover {
+  background: linear-gradient(-90deg, #01ac54 0%, #03de6d 100%) !important;
+  box-shadow: 0 6px 20px rgba(1, 172, 84, 0.45);
+}
+.btn-download * {
+  color: white !important;
+}

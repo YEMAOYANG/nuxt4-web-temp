@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /outnet/
+
+Sitemap: https://wwww.touchoutnet.com/sitemap.xml
+

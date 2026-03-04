@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "首页",
+    "features": "功能",
+    "advantages": "优势",
+    "price": "价格",
+    "download": "下载"
+  },
+  "hero": {
+    "title": "快速、安全，一键连接更优质的互联网。",
+    "badge": "v1.0 全新发布",
+    "description": "企业级加密、全球高速服务器以及极致的在线自由——只需轻轻一按即可享受。"
+  },
+  "download": {
+    "ios": "iOS 下载",
+    "android": "Android 下载",
+    "guarantee": "享受无风险、7天退款保障。",
+    "title": "准备好踏上你的加速之旅了吗？",
+    "description": "立即免费下载该应用。新用户注册后即可免费体验。"
+  },
+  "common": {
+    "heroAlt": "ABC - 专属独立IP服务器",
+    "whyAlt": "为什么选择ABC"
+  },
+  "features": {
+    "title": "功能",
+    "items": [
+      {
+        "title": "智能快速连接",
+        "description": "只需点击“快速连接”。我们的智能算法会根据距离、负载和延迟自动选择最快的服务器。",
+        "advantage": "优点: 无需配置, 一键实现最优速度。"
+      },
+      {
+        "title": "银行级加密",
+        "description": "AES-256加密技术可保护您在任何网络上的数据安全。非常适用于公共Wi-Fi、网上银行和隐私浏览。",
+        "advantage": "优势: 黑客和互联网服务提供商无法窥探您的数据。"
+      },
+      {
+        "title": "10,000+ 台全球服务器",
+        "description": "接入59个国家的10,000多台服务器。服务器数量越多，负载越低，连接速度也越稳定。",
+        "advantage": "优势: 无需缓冲即可进行直播、游戏和下载。"
+      }
+    ]
+  },
+  "advantages": {
+    "title": "优势",
+    "description": "为何游戏玩家和主播选择我们",
+    "items": [
+      {
+        "label": "游戏DDoS防护",
+        "description": "保护您的游戏免受DDoS攻击，确保流畅的游戏体验。"
+      },
+      {
+        "label": "网络紧急切断开关",
+        "description": "VPN断开时自动切断网络连接。零数据泄露。"
+      },
+      {
+        "label": "多设备通用",
+        "description": "一个账户可以在多台设备上同时登录。"
+      },
+      {
+        "label": "全天候实时支持",
+        "description": "随时通过聊天或电子邮件获得专家帮助。"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "选择您的计划",
+    "description": "所有方案均可无限制使用所有功能。",
+    "popular": "最受欢迎",
+    "planWeek": "周计划",
+    "planMonth": "月计划",
+    "planQuarter": "季计划",
+    "planYear": "年计划",
+    "perWeek": "$4.99 / week"
+  },
+  "footer": {
+    "allRightsReserved": "版权所有",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款"
+  },
+  "seo": {
+    "title": "ABC - 专注于顺畅的智能网络伙伴",
+    "ogTitle": "ABC - 专属独立IP，掌控你的网络身份",
+    "description": "ABC 是一个专注于顺畅的智能网络伙伴，为你悄然过滤网络的拥堵与卡顿，剥离等待的烦躁与干扰。",
+    "keywords": "ABC, 智能网络伙伴, 独立IP, 网络加速, 网络优化, 网络流畅, 网络稳定"
+  }
+}

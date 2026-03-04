@@ -1,0 +1,39 @@
+{
+  "name": "ABC",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "build:prerender": "nuxt build --prerender",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "1.2.95",
+    "@iconify-json/simple-icons": "1.2.72",
+    "@nuxt/image": "^2.0.0",
+    "@nuxt/ui": "4.5.1",
+    "@nuxtjs/i18n": "^10.2.3",
+    "@standard-schema/spec": "1.1.0",
+    "@vueuse/nuxt": "^14.1.0",
+    "nuxt": "4.3.1",
+    "nuxt-og-image": "5.1.13"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.9.0",
+    "@nuxtjs/sitemap": "^7.4.7",
+    "eslint": "^10.0.2",
+    "nuxt-svgo": "^4.2.6",
+    "sass": "^1.93.2",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.1.1"
+  },
+  "resolutions": {
+    "unimport": "4.1.1"
+  },
+  "packageManager": "pnpm@10.18.2"
+}
